@@ -43,6 +43,7 @@ if (checkBoxes.get(0).isSelected()) {
 else {
     System.out.println("Test Failed");
     System.out.println("Checkbox 1 is not selected");
+    System.out.println("");
 }
 
 
