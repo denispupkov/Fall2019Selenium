@@ -10,7 +10,7 @@ public class Driver {
     //everyone should call static getter method instead
     private Driver() {
     }
-    public static WebDriver getDriver() {
+    public synchronized static WebDriver getDriver() {
         //if webdriver object doesn't exist
         //create it
         if (driver == null) {
